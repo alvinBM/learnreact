@@ -27,7 +27,7 @@ const products = [
 
 function ShoppingList() {
     return (
-        <div>
+        <div style={{width : '50%'}}>
             {products.map((product) => (
                 <div key={product.id}>
                     <h5>{product.name}</h5>

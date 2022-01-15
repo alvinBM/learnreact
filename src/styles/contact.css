@@ -1,0 +1,10 @@
+.formContact{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button{
+    padding : 10px;
+    width: 50%;
+    margin: 20px;
+}
